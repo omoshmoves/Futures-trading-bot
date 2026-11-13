@@ -43,3 +43,13 @@ uvicorn==0.54.0
 winloop==0.6.3
 yarl==1.25.1
 zlib-ng==1.0.0
+fastapi
+uvicorn
+ccxt
+apscheduler
+python-telegram-bot
+httpx
+pydantic
+python-dotenv
+pandas>=2.0.0
+numpy>=1.22.0
