@@ -1,9 +1,9 @@
 # Institutional AI Crypto Futures Trading Bot
 
-An institutional-grade, modular, and autonomous algorithmic cryptocurrency futures trading platform designed for Binance Futures (Testnet/Live). Features real-time multi-indicator analysis, strict risk gates, ATR-based position sizing, and a high-performance FastAPI management backend.
+An institutional-grade, modular, and autonomous algorithmic cryptocurrency futures trading platform designed for Bybit Futures (Testnet/Live). Features real-time multi-indicator analysis, strict risk gates, ATR-based position sizing, and a high-performance FastAPI management backend.
 
 ## Architecture Modules
-* **`exchange/`**: CCXT-powered exchange connectors (`BinanceFuturesClient`).
+* **`exchange/`**: CCXT-powered exchange connectors (`BybitFuturesClient`).
 * **`data/`**: Real-time ticker and historical OHLCV data collectors (`MarketDataCollector`).
 * **`indicators/`**: Pandas/NumPy technical indicator calculation engine (RSI, MACD, EMAs, Bollinger Bands, ATR, VWAP, ADX, Stochastic RSI).
 * **`ai/`**: Market regime classification and rule-based trade decision engines.
